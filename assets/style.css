@@ -1,0 +1,21 @@
+/* Universal Selector */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Element Selector */
+header {
+    border: 5px solid blue;
+    background-color: forestgreen;
+    position: fixed;
+    left: 500px
+}
+
+.list {
+    display: inline;
+}
+
+/* Class Selector */
+.box {
+    background-color: blue;
+}
