@@ -1,21 +1,105 @@
 /* Universal Selector */
 * {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding:0;
 }
 
 /* Element Selector */
-header {
-    border: 5px solid blue;
-    background-color: forestgreen;
-    position: fixed;
-    left: 500px
+
+footer {
+    position: relative;
+    bottom: 0;
+    right:0;
+    margin: 60px;
 }
 
-.list {
-    display: inline;
+body {
+    background-color:bisque;
+    overflow: visible;
+}
+
+img {
+    float: top;
+}
+
+ul {
+    margin: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black
+}
+
+li a:hover{
+    color: forestgreen;
+    font-weight: bolder;
+}
+
+section {
+    margin: 10px;
+    padding: 30px;
+}
+section p{
+    text-align: center;
+
+}
+
+form {
+    text-align: center;
 }
 
 /* Class Selector */
-.box {
-    background-color: blue;
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    display: block;
+}
+
+/* A links within navbar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+  }
+
+/* Action done when mouse hovers above the menu items in the navbar */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+  } 
+  
+.section1 {
+    border: black;
+    border-style:double;
+    text-align: left;
+    background-color: blanchedalmond;
+}
+
+.section1 h2 {
+    text-align: center;
+}
+
+.section2 {
+    border: black;
+    border: black;
+    border-style:double;
+    text-align: left;
+    background-color: blanchedalmond;
+}
+
+.section2 h2 {
+    text-align: center;
+}
+/* Unique Selector */
+
+#information {
+    margin: 10px;
 }
